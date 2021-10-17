@@ -42,9 +42,15 @@ const surveyData = {
     },
   ],
   mealTypes: {
-    3: ["Breakfast", "Lunch", "Dinner"],
-    5: ["Breakfast Snack", "Breakfast", "Lunch", "Afternoon Snack", "Dinner"],
-    2: ["Brunch", "Dinner"],
+    3: ["Breakfast 🥯", "Lunch 🥣", "Dinner 🍲"],
+    5: [
+      "Breakfast Snack 🧇",
+      "Breakfast 🥯",
+      "Lunch 🥣",
+      "Afternoon Snack 🥪",
+      "Dinner 🍲",
+    ],
+    2: ["Brunch 🍳", "Dinner 🍲"],
   },
   calories: {
     min: 1800,
