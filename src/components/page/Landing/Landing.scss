@@ -1,0 +1,59 @@
+@import "../../../partials/manifest.scss";
+// mobile first
+.Landing {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 85vh;
+  text-align: center;
+  background-image: linear-gradient(#f1f6f9, #d9e4e8);
+}
+.Landing__banner,
+.Landing__data {
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1rem;
+}
+.Landing__banner {
+  background: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  &__heading {
+    margin: auto;
+    font-family: $heading-font--cursive;
+    color: rgb(116, 116, 116);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -50%);
+  }
+}
+.Landing__data {
+  flex: 100%;
+  background: url(./bg/bgfood1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__content {
+    margin: auto;
+    font-family: $subHeading-font--serif;
+    font-size: 1.25rem;
+    color: rgb(116, 116, 116);
+    font-weight: 600;
+    ul {
+      margin-bottom: 3%;
+      li {
+        padding: 0.71rem;
+      }
+    }
+  }
+}
+//larger screens
+@media (min-width: 900px) {
+  .Landing__banner__heading {
+    font-size: 3rem;
+  }
+  .Landing__data {
+    flex: 1;
+  }
+}

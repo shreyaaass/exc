@@ -1,0 +1,10 @@
+@import "../../../partials/manifest.scss";
+.Nav {
+  border-bottom: solid 1px $silver;
+  padding: 1rem;
+  background-color: #f5e3cf;
+}
+.Nav__button {
+  font-family: $nunito;
+  color: $asphalt;
+}
