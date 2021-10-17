@@ -1,4 +1,5 @@
 {
+  "homepage": "https://shreyaaass.github.io/exc/",
   "name": "meal-planner",
   "version": "0.1.0",
   "private": false,
@@ -27,6 +28,5 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "homepage": "."
+  }
 }
