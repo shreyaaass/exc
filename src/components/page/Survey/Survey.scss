@@ -31,7 +31,7 @@
   }
 }
 .Survey__content {
-  background-image: url("bgfood1.svg");
+  background-image: url("../bg/bgfood1.svg");
   padding: 1rem;
 }
 .Survey__heading {
@@ -53,6 +53,9 @@
   .Tabs__content {
     background-color: white;
   }
+}
+.Survey__heading {
+  font-size: 0.75rem;
 }
 .Survey__goto {
   margin-top: 3rem;
