@@ -15,6 +15,12 @@ const Nav = () => (
     >
       Questions
     </Button>
+    <a
+      href="https://shreyaaass.github.io/use-food-now/"
+      className="inventory__nav"
+    >
+      Inventory
+    </a>
   </div>
 );
 

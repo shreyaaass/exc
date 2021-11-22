@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => (
   <div className="Footer">
-    <h1>Made for Human Computer Interaction project</h1>
+    <h4>Made for Human Computer Interaction project</h4>
     <p>
       Reach us at shreyas.singh2020@vitstudent.ac.in,
       keerthika.reddy2020@vitstudent.ac.in, meghana.vgaonkar@gmail.com
