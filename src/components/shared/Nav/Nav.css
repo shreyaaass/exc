@@ -4,14 +4,8 @@
 .Nav {
   border-bottom: solid 1px #e3e3e3;
   padding: 1rem;
-  background-color: #f5e3cf;
-}
+  background-color: #f5e3cf; }
 
 .Nav__button {
   font-family: "Nunito Sans", serif;
-  color: #34495e;
-}
-.inventory__nav {
-  font-family: "Nunito Sans", serif;
-  color: #34495e;
-}
+  color: #34495e; }
