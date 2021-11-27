@@ -21,6 +21,9 @@ const Nav = () => (
     >
       Inventory
     </a>
+    <a href="https://meal-planner-shop.netlify.app/" className="shop__nav">
+      grocer-stop
+    </a>
   </div>
 );
 
