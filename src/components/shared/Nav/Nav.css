@@ -1,11 +1,1 @@
-@import url("https://fonts.googleapis.com/css?family=Pacifico|Quicksand|Scope+One|Nunito+Sans");
-/** FONTS **/
-/** COLORS **/
-.Nav {
-  border-bottom: solid 1px #e3e3e3;
-  padding: 1rem;
-  background-color: #f5e3cf; }
-
-.Nav__button {
-  font-family: "Nunito Sans", serif;
-  color: #34495e; }
+@import"https://fonts.googleapis.com/css?family=Pacifico|Quicksand|Scope+One|Nunito+Sans";.Nav{border-bottom:solid 1px #e3e3e3;padding:1rem;background-color:#f5e3cf}.Nav__button{font-family:"Nunito Sans",serif;color:#34495e}.shop__nav{margin-left:20px}
