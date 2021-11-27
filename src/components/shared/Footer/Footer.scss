@@ -1,16 +1,18 @@
-@import '../../../partials/manifest.scss';
-.Footer{
+@import "../../../partials/manifest.scss";
+.Footer {
   display: flex;
   flex-flow: row wrap;
   font-size: 1.3rem;
   padding: 1rem;
-  color:$asphalt;
+  color: $asphalt;
   margin: auto;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.Footer__icon{
+.Footer__icon {
   color: $hotpink;
 }
-.Footer__link{
-  color:$hotpink;
+.Footer__link {
+  color: $hotpink;
 }
